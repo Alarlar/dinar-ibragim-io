@@ -1,0 +1,48 @@
+body {
+  background-color: rgba(218, 225, 218, 0.495);
+  color: rgb(34, 4, 43); /* Changing text color */
+  font-family: "Courier New", Courier, monospace; /* How text will looks like  */
+  font-size: 20px;
+}
+
+section {
+  margin: 30px; /* Space between the sections */
+  padding: 10px; /* Space inside the sections */
+}
+
+#About {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 38px;
+  font-weight: Extra Bold;
+  color: rgb(40, 100, 44);
+}
+
+h1 {
+  text-transform: uppercase; /* The hole text will be Cap. */
+  font-weight: extra bolder;
+  font-size: 46px;
+  color: black;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 300px;
+  height: auto;
+}
+
+#Experience,
+#Connect {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 5px rgba(33, 29, 29, 0.359);
+}
+
+.no-bullets {
+  list-style-type: none;
+}
