@@ -1,6 +1,23 @@
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgb(56, 170, 56);
+}
+
+nav ul li a {
+  list-style-type: none; /* Removes bullet points */
+  display: inline;
+  margin-right: 20px;
+  color: rgb(5, 5, 5);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 body {
+  /* This is elemnt selector, so elemnt without tag and without attributes, because is css */
   background-color: rgba(218, 225, 218, 0.495);
-  color: rgb(34, 4, 43); /* Changing text color */
+  color: rgb(17, 16, 18); /* Changing text color */
   font-family: "Courier New", Courier, monospace; /* How text will looks like  */
   font-size: 20px;
 }
@@ -35,14 +52,81 @@ h1 {
   height: auto;
 }
 
-#Experience,
+/* This is ID selector, in HTML file we wrote `id="Experience"`,so here we kind of teling to Broweser: 'Look what is going on under id="Experience", maybe somethig intersting good lokking styles over there in external css file...*/
 #Connect {
+  background-color: rgb(193, 189, 189);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 5px rgba(33, 29, 29, 0.359);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.no-bullets {
+  /* This is class Selector, it is like in low level language C++, class selector with '.' I am accessing to this elemnt by using '.' in my class ot "things" */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Space between each list item */
+}
+
+.no-bullets li {
+  display: inline-block;
+}
+
+.no-bullets a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.no-bullets a:hover {
+  color: #007bff;
+}
+
+#Experience {
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 10px 5px rgba(33, 29, 29, 0.359);
 }
 
-.no-bullets {
-  list-style-type: none;
+.experience-item {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.job-dates {
+  font-style: italic;
+  color: #555;
+}
+
+.job-description {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #bcb9b9;
 }
