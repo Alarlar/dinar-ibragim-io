@@ -14,7 +14,7 @@
         <li> <a href="#About"> About </a></li>
         <li> <a href="#Experience"> Experience </a></li>
         <li> <a href="#skills"> Skills </a></li>
-        <li> <a href="#Projects"> Projects </a></li>
+        <li> <a href="#projects"> Projects </a></li>
 
     </ul>
 </nav>
@@ -27,77 +27,99 @@
         <img src="/images/photo.jpg" alt="Profile photo" class="profile-photo">
 
         <p>
-            I'm a CTD bootcamp student I learn about computers,<br>
+            I'm a CTD bootcamp student I learning about computers,<br>
             the internet, and programming.<br>
             I am interested in all aspects of programming.
         </p>
     </section>
 
-    <section id="Projects">
-        <h2>Projects</h2>
-        <!-- Here we will pulll using API all projects from GitHub  -->
-    </section>
-
-    <section id="Experience">
+    <<section id="Experience">
         <h2>Experience</h2>
-        <div class="experience-item">
-            <div class="experience-header"></div>
-            <div class="job-title"> IT specialist </div>
-            <div class="job-dates"> August 2022 - Present </div>
+        <div class="experience-container">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Apple</div>
+                    <div class="job-title">Test Engineer</div>
+                    <div class="job-dates">August 2024 - Present</div>
+                </div>
+                <div class="job-description">
+                    <p>Tasked with ensuring the quality of Apple’s accessory ecosystem. I create and plan complete
+                        end-to-end testing to deliver impressive products to customers. I follow comprehensive test
+                        plans to validate Apple accessories features and experience across common and corner customer
+                        scenarios. I author and leverage automation and test tools, successfully delivering high-quality
+                        products, enhancing customer satisfaction and reducing post-launch issues.</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Salesian Academy</div>
+                    <div class="job-title">IT Specialist</div>
+                    <div class="job-dates">August 2022 - Present</div>
+                </div>
+                <div class="job-description">
+                    <p>Provided comprehensive technical support to end-users, addressing issues related to desktops,
+                        laptops, mobile devices, and various peripherals across multiple platforms including Windows,
+                        macOS, Android, and iOS.</p>
+                    <p>Demonstrated effective problem-solving skills and proficiency in utilizing internal tools and
+                        ticket tracking systems.</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Siemens Logistics</div>
+                    <div class="job-title">Technical Specialist</div>
+                    <div class="job-dates">July 2020 - June 2022</div>
+                </div>
+                <div class="job-description">
+                    <p>Resolved complex technical issues in an advanced autonomous driving environment, advancing
+                        automotive technology.</p>
+                </div>
+            </div>
         </div>
-        <div class="job-description"></div>
-        IT Specialist with 4 years of experience providing exceptional technical support to diverse user bases
-        within professional services organizations.
-        </div>
+        </section>
 
-        <div class="experience-item">
-            <div class="experience-header"></div>
-            <div class="job-title"> Technical specialist </div>
-            <div class="job-dates"> August 2020 - July 2022 </div>
-        </div>
-        <div class="job-description"></div>
-        Autonomous Driving Technician Resolving complex technical issues in an advanced autonomous driving environment,
-        advancing automotive technology.
-        </div>
-    </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul></ul><!-- Here we will pulll using API all projects from GitHub  -->
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <!-- Here one day will be JS dynamic -->
-        <ul> </ul>
-    </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul> </ul>
+        </section>
 
-    <section id="Connect">
-        <h2> Connect </h2>
-        <ul class="no-bullets">
-            <li><a href="dinar.ibragim@proton.me"><img src="/images/mail.png" alt="ProtonEmail"></a></li>
-            <li><a href="https://www.linkedin.com/in/dinarit/"><img src="/images/ln.png" alt="LinkedIn"></a>
-            </li>
-            <li><a href="https://github.com/Alarlar"><img src="/images/git.png" alt="GitHub"></a></li>
-            </li>
-        </ul>
-    </section>
-    <script src="tota11y.min.js"></script>
-    <script src="js/index.js"></script>
+        <section id="Connect">
+            <h2> Connect </h2>
+            <ul class="no-bullets">
+                <li><a href="dinar.ibragim@proton.me"><img src="/images/mail.png" alt="ProtonEmail"></a></li>
+                <li><a href="https://www.linkedin.com/in/dinarit/"><img src="/images/ln.png" alt="LinkedIn"></a>
+                </li>
+                <li><a href="https://github.com/Alarlar"><img src="/images/git.png" alt="GitHub"></a></li>
+                </li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Leave a Message</h2>
-        <form name="leave_message">
-            <label for="usersName">Name:</label>
-            <input type="text" name="usersName" id="usersName" required><br>
-            <label for="usersEmail">Email:</label>
-            <input type="email" name="usersEmail" id="usersEmail" required><br>
-            <label for="usersMessage">Message:</label>
-            <textarea name="usersMessage" id="usersMessage" required></textarea><br>
-            <button type="Submit">Submit</button>
-        </form>
-    </section>
+        <section>
+            <h2>Leave a Message</h2>
+            <form name="leave_message">
+                <label for="usersName">Name:</label>
+                <input type="text" name="usersName" id="usersName" required><br>
+                <label for="usersEmail">Email:</label>
+                <input type="email" name="usersEmail" id="usersEmail" required><br>
+                <label for="usersMessage">Message:</label>
+                <textarea name="usersMessage" id="usersMessage" required></textarea><br>
+                <button type="Submit">Submit</button>
+            </form>
+        </section>
 
-    <section id="messages">
-        <h2>Messages</h2>
-        <ul> </ul>
-    </section>
-
+        <section id="messages">
+            <h2>Messages</h2>
+            <ul> </ul>
+        </section>
+        <script src="tota11y.min.js"></script>
+        <script src="js/index.js"></script>
 </body>
 
 </html>
